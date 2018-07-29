@@ -1,0 +1,22 @@
+
+<div *ngFor="let profile of profiles">
+    
+<div class="list-group">
+    
+    <div class="media">
+        <a href="#" class="list-group-item active" [routerLink] = "['/profile',profile.id]">
+        <div class="media-left">
+          
+            <img class="media-object" src="../assets/images/DSC.jpg" style="width: 60px">
+          
+        </div>
+        <div class="media-body">
+    <h4 class="list-group-item-heading">{{profile.name}}</h4>
+    <p class="list-group-item-text">User Name:{{profile.username}}</p>
+    <p class="list-group-item-text">Email:{{profile.email}}</p>
+  
+</div>
+</a>
+</div>
+</div>
+</div>

@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(103, 178, 248)
+    
+    }
+#mid{
+    position: fixed;
+    width: 50%; /* Set your desired with */
+    z-index: 2; /* Make sure its above other items. */
+    top: 60%;
+    left: 33%;
+    margin-top: -10%; /* Changes with height. */
+    margin-left: -10%; /* Your width divided by 2. */
+    border: 2px solid #519cf1;
+    border-radius: 5px;
+    /* You will not need the below, its only for styling   purposes. */
+   /* padding: 10px;
+    border: 2px solid #555555;
+      background-color: #ccc;
+    border-radius: 5px;
+    text-align: center;*/
+	}
